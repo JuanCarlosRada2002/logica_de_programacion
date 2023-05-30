@@ -1,0 +1,113 @@
+Algoritmo logica_programacion
+	
+	Escribir "La lampara no funciona";
+	
+	Escribir "¿Esta enchufada la lampara?";
+	Leer respuesta;
+	
+	Si respuesta = "si" Entonces
+		
+		Escribir "¿esta quemada la bombilla?";
+		Leer respuesta2;
+		
+		Si respuesta2 = "si" Entonces
+			
+			Escribir "cambia la bombilla"
+			Escribir "¿ha cambiado la bombilla?";
+			Leer respuesta3;
+			
+			Si respuesta3 = "si" Entonces
+				
+				Escribir "¿ese era el problema?";
+				Leer respuesta6;
+				
+				Si respuesta6 = "si" Entonces
+					
+					Escribir "La lampara esta arreglada :) excelente trabajo rancio";
+					
+				SiNo
+					
+					Escribir "¿Sabe cual es el problema?";
+					Leer respuesta7;
+					
+					Si respuesta7 = "si" Entonces
+						
+						Escribir "¿Cual es el problema?";
+						Leer respuesta8;
+						
+						Si respuesta8 Entonces
+							Escribir "cambia ese problema";
+						SiNo
+							Escribir " si el problema no es el anterior ¿cual es?";
+							Leer problema3;
+							
+							Si problema3 Entonces
+								
+								Escribir "cambie eso de la lampara";
+								
+							SiNo
+								
+								Escribir "¿esta seguro que este es el problema?";
+								Leer problema2;
+								
+								Si problema2 = "si" Entonces
+									
+									Escribir "solucionelo y pruebe la lampara";
+								SiNo
+									Escribir "Entonces vote esa lampara papi y compre otra imbecil";
+								Fin Si
+							Fin Si
+						Fin Si	
+					SiNo
+						Escribir "Busquelo y solucionelo pendejo :V ";
+					Fin Si
+				Fin Si
+			SiNo
+				
+				Escribir "si no la ha cambiado bombilla entonces ¿sabe cual es el problema?";
+				Leer respuesta4;
+				
+				si respuesta4 = "no" Entonces
+					
+					Escribir "Entonces cambia la put* bombilla tonto";
+					
+				SiNo
+					Escribir "¿Cual es el problema?";
+					Leer respuesta5;
+					
+					si respuesta5 = "el cable" Entonces
+						
+						Escribir "¿la has arreglado?";
+						Leer solucion;
+						
+						Si solucion = "si" Entonces
+							
+							Escribir "en hora buena hp :)";
+						SiNo
+							Escribir "intente arreglarlo no moleste";
+						Fin Si
+						
+					SiNo
+						
+						Escribir "la lampara tiene otro fallo diferente a la bombilla y el cable ¡arreglelo!";
+						
+					FinSi
+					
+				FinSi
+				
+			Fin Si
+		SiNo
+			
+			Escribir "la bombilla esta buena, la lampara ¡NO!";
+			
+		Fin Si
+	SiNo
+		
+		escribir "entonces ¡ECHUFLALA PEDAZO DE ANIMAL!";
+		Escribir "Genial eso era todo :) ";
+		
+	Fin Si
+	Escribir "";
+	Escribir "Me gustan las monas chinas y el anime >:V";
+	
+FinAlgoritmo
